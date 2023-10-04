@@ -1,0 +1,62 @@
+@import "../variables";
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 645px) {
+      display: flex;
+      flex-direction: column;
+      .header__cart {
+        margin-top: 20px;
+      }
+    }
+
+    .header__cart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .checkout {
+      display: flex;
+      position: relative;
+      left: 20px;
+      font-size: 9px;
+      font-weight: bold;
+      color: #000;
+
+      .checkout_img {
+        position: absolute;
+        left: 50%;
+        top: 39%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+  }
+}
