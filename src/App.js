@@ -17,6 +17,8 @@ export const SearchContext = createContext();
 function App() {
   const [authUser, setAuthUser] = useState(null);
   const [searchValue, setSearchValue] = useState("");
+  const [cartItems, setCartItems] = useState([]);
+  const [cartCount, setCartCount] = useState(0);
 
   useState(() => {
     const listen = onAuthStateChanged(auth, (user) => {
@@ -35,12 +37,34 @@ function App() {
   return (
     <div className="wrapper">
       <SearchContext.Provider value={{ searchValue, setSearchValue }}>
-        <Header authUser={authUser} setAuthUser={setAuthUser} />
+        <Header
+          authUser={authUser}
+          setAuthUser={setAuthUser}
+          cartCount={cartCount}
+        />
         <div className="content">
           <div className="container">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/cart" element={<Cart />} />
+              <Route
+                path="/"
+                element={
+                  <Home
+                    setCartItems={setCartItems}
+                    setCartCount={setCartCount}
+                    cartCount={cartCount}
+                  />
+                }
+              />
+              <Route
+                path="/cart"
+                element={
+                  <Cart
+                    cartItems={cartItems}
+                    setCartItems={setCartItems}
+                    setCartCount={setCartCount}
+                  />
+                }
+              />
               <Route path="/sign-in" element={<SignIn />} />
               <Route path="/sign-up" element={<SignUp />} />
               <Route path="*" element={<NotFound />} />

@@ -8,7 +8,7 @@ import ItemBlock from "../components/ItemBlock";
 
 import Pagination from "../components/Pagination";
 
-const Home = () => {
+const Home = ({ setCartItems, setCartCount, cartCount }) => {
   const { searchValue } = useContext(SearchContext);
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -60,7 +60,15 @@ const Home = () => {
               .filter((obj) =>
                 obj.name.toLowerCase().includes(searchValue.toLowerCase())
               )
-              .map((obj, i) => <ItemBlock key={obj.id} {...obj} />)}
+              .map((obj, i) => (
+                <ItemBlock
+                  key={obj.id}
+                  {...obj}
+                  setCartItems={setCartItems}
+                  setCartCount={setCartCount}
+                  cartCount={cartCount}
+                />
+              ))}
       </div>
       <Pagination setCurrentPage={setCurrentPage} />
     </>

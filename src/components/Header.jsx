@@ -5,7 +5,7 @@ import logo from "../assets/img/logo.svg";
 import checkoutIcon from "../assets/img/shopping-bag.svg";
 import Search from "./Search";
 
-const Header = ({ authUser, setAuthUser }) => {
+const Header = ({ authUser, setAuthUser, cartCount }) => {
   const navigate = useNavigate();
 
   const signOut = () => {
@@ -46,7 +46,7 @@ const Header = ({ authUser, setAuthUser }) => {
               alt="logo"
               className="checkout_img"
             />
-            1
+            {cartCount}
           </Link>
         </div>
       </div>

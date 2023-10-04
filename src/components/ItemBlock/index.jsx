@@ -1,10 +1,28 @@
 import React, { useState } from "react";
 
-const ItemBlock = ({ name, price, imageUrl }) => {
+const ItemBlock = ({
+  name,
+  price,
+  imageUrl,
+  setCartItems,
+  setCartCount,
+  cartCount,
+}) => {
   const [itemCount, setItemCount] = useState(0);
 
   const productAdd = () => {
     setItemCount(itemCount + 1);
+  };
+
+  const handleOnClick = () => {
+    const newItem = {
+      productName: name,
+      productPrice: price,
+      productUrl: imageUrl,
+    };
+
+    setCartItems((prevCartItems) => [...prevCartItems, newItem]);
+    setCartCount(cartCount + 1);
   };
 
   return (
@@ -31,7 +49,7 @@ const ItemBlock = ({ name, price, imageUrl }) => {
                 fill="white"
               />
             </svg>
-            <span>Add</span>
+            <span onClick={handleOnClick}>Add</span>
             <i>{itemCount}</i>
           </button>
         </div>
