@@ -43,7 +43,6 @@ const Cart = ({ cartItems, setCartCount, setCartItems }) => {
               <div className="cart__item-price">
                 <b>£{item.productPrice}</b>
               </div>
-              <div className="cart__item-remove">X</div>
             </div>
           ))}
         </div>
