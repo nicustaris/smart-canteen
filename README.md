@@ -30,9 +30,9 @@ yarn install
 npm start
 # or
 yarn start
+```
 
 ## Usage
-```
 
 Welcome to Smart Canteen! Here's how to use our website to make the most of your dining experience:
 
