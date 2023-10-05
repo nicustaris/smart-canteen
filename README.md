@@ -103,12 +103,12 @@ Smart Canteen incorporates several key features to enhance the user experience a
 
 Smart Canteen is built using a modern stack of technologies to ensure a seamless and feature-rich user experience. The technologies used include:
 
-- JavaScript
-- JSX
-- CSS
-- SCSS (Sass)
-- React
-- HTML
+- **JavaScript**: A versatile programming language for dynamic behavior.
+- **JSX**: A syntax extension for JavaScript, commonly used in React.
+- **CSS**: Cascading Style Sheets for styling web content.
+- **SCSS (Sass)**: A CSS preprocessor that enhances the readability and maintainability of stylesheets.
+- **React**: A JavaScript library for building single-page applications (SPAs).
+- **HTML**: HyperText Markup Language for structuring web content.
 
 ## Contributing
 
@@ -127,7 +127,3 @@ If you're interested in contributing code to the project, follow these steps:
 3. Make your changes and commit them with clear and concise messages: `git commit -m 'Add new feature'`.
 4. Push your branch to your GitHub repository: `git push origin feature/my-feature`.
 5. Create a Pull Request (PR) from your branch to the `main` branch of our repository.
-
-```
-
-```
