@@ -7,8 +7,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 - [Technology Used](#technology-used)
+- [Contributing](#contributing)
 
 ## Installation
 
@@ -96,7 +96,19 @@ Smart Canteen incorporates several key features to enhance the user experience a
      - Popularity: Ranks products based on user ratings and reviews.
      - Alphabet: Alphabetically organizes products for quick reference.
 
+
 ```
+
+## Technology Used
+
+Smart Canteen is built using a modern stack of technologies to ensure a seamless and feature-rich user experience. The technologies used include:
+
+- JavaScript
+- JSX
+- CSS
+- SCSS (Sass)
+- React
+- HTML
 
 ## Contributing
 
@@ -116,13 +128,6 @@ If you're interested in contributing code to the project, follow these steps:
 4. Push your branch to your GitHub repository: `git push origin feature/my-feature`.
 5. Create a Pull Request (PR) from your branch to the `main` branch of our repository.
 
-## Technology Used
+```
 
-Smart Canteen is built using a modern stack of technologies to ensure a seamless and feature-rich user experience. The technologies used include:
-
-- JavaScript
-- JSX
-- CSS
-- SCSS (Sass)
-- React
-- HTML
+```
