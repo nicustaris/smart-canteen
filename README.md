@@ -62,7 +62,6 @@ Welcome to Smart Canteen! Here's how to use our website to make the most of your
 ### 5. Enjoy Your Meal
 
 - Once you've completed the checkout process, your delicious and nutritious meal will be ready for you to enjoy. You can come and collect it at your convenience.
--
 
 ## Features
 
