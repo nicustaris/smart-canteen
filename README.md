@@ -8,7 +8,7 @@
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
+- [Technology Used](#technology-used)
 
 ## Installation
 
@@ -62,12 +62,11 @@ Welcome to Smart Canteen! Here's how to use our website to make the most of your
 ### 5. Enjoy Your Meal
 
 - Once you've completed the checkout process, your delicious and nutritious meal will be ready for you to enjoy. You can come and collect it at your convenience.
-
-Smart Canteen is committed to providing you with convenient access to healthy food options, and we hope you have a wonderful dining experience with us!
-
-```
+-
 
 ## Features
+
+```
 
 Smart Canteen incorporates several key features to enhance the user experience and functionality:
 
@@ -97,5 +96,33 @@ Smart Canteen incorporates several key features to enhance the user experience a
      - Popularity: Ranks products based on user ratings and reviews.
      - Alphabet: Alphabetically organizes products for quick reference.
 
-These features collectively create a secure, dynamic, and user-centric environment within Smart Canteen, ensuring an enjoyable and efficient dining experience for our users.
 ```
+
+## Contributing
+
+We welcome contributions to make Smart Canteen even better! Whether you're a developer, designer, or simply an enthusiastic user, here's how you can get involved:
+
+### Reporting Issues
+
+If you encounter a bug, have a feature request, or notice any issues while using Smart Canteen, please open an issue on our [GitHub Issue Tracker](https://github.com/nicustaris/smart-canteen/issues). Be sure to include detailed information about the problem, steps to reproduce it, and your system configuration.
+
+### Code Contributions
+
+If you're interested in contributing code to the project, follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature/my-feature` or `git checkout -b bugfix/issue-description`.
+3. Make your changes and commit them with clear and concise messages: `git commit -m 'Add new feature'`.
+4. Push your branch to your GitHub repository: `git push origin feature/my-feature`.
+5. Create a Pull Request (PR) from your branch to the `main` branch of our repository.
+
+## Technology Used
+
+Smart Canteen is built using a modern stack of technologies to ensure a seamless and feature-rich user experience. The technologies used include:
+
+- JavaScript
+- JSX
+- CSS
+- SCSS (Sass)
+- React
+- HTML
