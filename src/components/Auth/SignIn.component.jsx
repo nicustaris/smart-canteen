@@ -51,10 +51,6 @@ function SignIn() {
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
-            </div>{" "}
-            <div className={styles.social}>
-              <p>Social media sign in?</p>
-              <img src={google} alt="google" className={styles.googleIcon} />
             </div>
             <div className={styles.action}>
               <p onClick={() => navigate("/sign-up")}>Register</p>
