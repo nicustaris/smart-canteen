@@ -32,6 +32,7 @@ npm start
 yarn start
 
 ## Usage
+```
 
 Welcome to Smart Canteen! Here's how to use our website to make the most of your dining experience:
 
@@ -62,8 +63,8 @@ Welcome to Smart Canteen! Here's how to use our website to make the most of your
 
 - Once you've completed the checkout process, your delicious and nutritious meal will be ready for you to enjoy. You can come and collect it at your convenience.
 
-
 Smart Canteen is committed to providing you with convenient access to healthy food options, and we hope you have a wonderful dining experience with us!
+
 ```
 
 ## Features
@@ -97,3 +98,4 @@ Smart Canteen incorporates several key features to enhance the user experience a
      - Alphabet: Alphabetically organizes products for quick reference.
 
 These features collectively create a secure, dynamic, and user-centric environment within Smart Canteen, ensuring an enjoyable and efficient dining experience for our users.
+```
